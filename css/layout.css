@@ -1,0 +1,173 @@
+body { background-color: #000000;}
+
+h1 {font-family: font-family: "Garamond" "Times New Roman"
+    "Georgia";
+    color: #ffffff;
+    text-align: center;}
+
+h2 {font-family: "Garamond" "Times New Roman"
+    "Georgia";
+    color: #ffffff;
+text-align: center;}
+
+h3 {font-family: "Garamond" "Times New Roman"
+    "Georgia";
+    color: #ffffff;
+text-align: center;}
+
+h4, h5 {font-family: "Garamond" "Times New Roman"
+    "Georgia";
+    color: #ffffff;
+text-align: center;}
+
+p {font-family: "Garamond" "Times New Roman"
+    "Georgia";
+    color: #ffffff;
+text-align: center;}
+
+img {display: block;
+margin: 0 auto;}
+
+iframe { margin-left: 250px;}
+
+.navigation {display: flex;
+height: 0 auto;}
+
+ul {font-family: "Garamond" "Times New Roman"
+    "Georgia";
+    list-style-type: none;
+margin: 0 auto;
+padding: 20px;}
+
+li {font-family: "Garamond" "Times New Roman"
+    "Georgia";
+display: inline;
+    color: white;
+}
+
+a {text-decoration: none;
+color: #ffffff;
+padding: 20px;}
+
+a:hover { background-color: #ffffff;
+    filter: drop-shadow(8px 8px 10px green);
+color: #000000;
+}
+
+
+ab:link, ab:visited {
+  background-color: lawngreen;
+  color: white;
+  
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ab:hover, ab:active {
+  background-color: green;
+}
+.quote {column-count: 3;}
+.row {display: flex;}
+.row1 {display: flex;}
+.row2 {display: flex; }
+
+.col3 {width:auto;
+    display: grid;}
+
+.col4 { width: 25%;}
+.col2 { width: 50%;
+grid-column-gap: 100px;
+}
+
+.col6 {
+    text-align:center;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+
+}
+
+
+.sceneimage {width: 90%;
+padding: 10px;}
+
+.intropara { font-size: 44px;
+line-height: 52px;
+text-align: justify;
+padding-right: 40px;
+padding-left: 40px;
+text-align: center;}
+
+.castimage {width: 90%;
+padding: 10px;}
+
+.tim { width: 40%;
+height: 50%;
+filter: drop-shadow(8px 8px 10px green);
+    border-radius: 25px;
+ }
+
+.q {font-family: "Garamond" "Times New Roman"
+    "Georgia";
+    color: #ffffff;
+text-align: center;
+font-size: 10px;
+    font-style:italic;}
+
+
+.draw { width: 20%;}
+.young { display: block;
+margin: 0 auto;}
+
+.timq { display: block; width: 30%;
+height: 70%;}
+
+.castinfo { font-size: 18px;
+line-height: 24px;
+text-align: justify;
+padding-left: 20px;
+padding-right: 20px;}
+
+.container {
+  position:relative;
+  width: 50%;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+    
+
+}
+
+.overlay {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
